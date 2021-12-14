@@ -15,8 +15,13 @@
 /* CUSTOM STYLE BELOW THIS COMENT, FOR THIS PAGE */
 
 /* HERO: start*/
-.hero{
+.hero {
+    min-height: 100vh;
     padding-bottom: 30px;
+    background-image: url(../../img/banner.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .hero > .row-short {
