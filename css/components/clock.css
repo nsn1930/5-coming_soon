@@ -1,3 +1,16 @@
 .clock {
     
 }
+
+.clock > .time {
+    width: 25%;
+    float: left;
+}
+
+.clock > .time > .value{
+
+}
+
+.clock > .time > .title {
+    
+}
