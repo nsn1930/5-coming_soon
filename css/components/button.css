@@ -1,7 +1,6 @@
-.button {
-    font-size: 15px;
-    color: #fff;
-    background-color: #E91D62;
-    padding: 10px 30px;
-    text-transform: capitalize;
+.btn {
+    padding: 0.5em 1.5em;
+    font-size: 20px;
+    border: 0.1em solid red;
+    border-radius: 0.25em;
 }
