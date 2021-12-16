@@ -1,0 +1,14 @@
+.btn {
+    padding: 0.8em 1em;
+    font-size: 17px;
+    line-height: 1em;
+    background-color: var(--secondary-color);
+    color: #fff;
+    border: none;
+    border-radius: 0.1em;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--secondary-color-dark);
+}
