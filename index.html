@@ -87,9 +87,12 @@
                 <h2 class="content-title">Have any question?</h2>
                 <p class="content-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur <a class="link" href="mailto:email@email.xyz">email@email.xyz</a> ullam autem, ut laboriosam dicta minus molestiae accusamus dolore aspernatur quidem?</p>
                 <form class="form">
-                    <input type="text" placeholder="Name" required autocomplete="name">
-                    <input type="text" placeholder="Email" required autocomplete="email">
-                    <textarea name="" id="" placeholder="Message" required autocomplete="off"></textarea>
+                    <label for="name">Name</label>
+                    <input id="name" class="input" type="text" placeholder="Name" required autocomplete="name" value="">
+                    <label for="email">Email</label>
+                    <input id="email" class="input" type="text" placeholder="Email" required autocomplete="email" value="">
+                    <label for="message">Message</label>
+                    <textarea name="" class="input" id="message" placeholder="Message" required autocomplete="off"></textarea>
                     <button class="btn" type="submit">Send message</button>
                 </form>
             </div>
