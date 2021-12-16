@@ -4,7 +4,7 @@
 @import '../base/variables.css';
 
 /* 3rd-party */
-@import '../components/font-awesome.min.css'
+@import '../components/font-awesome.min.css';
 
 /* components */
 @import '../components/button.css';
@@ -45,7 +45,7 @@
 
 .hero .main-description {
     font-size: 18px;
-    color: #AAAEB9;
+    color: #aaaeb9;
     margin-bottom: 30px;
 }
 
@@ -58,7 +58,7 @@
     margin: 0 5% 15px;
 }
 
-.hero .form > .input{
+.hero .form > .input {
     color: #fff;
     border-color: currentColor;
 }
@@ -69,7 +69,7 @@
 /* HERO: end */
 
 /* MAIN CONTENT: start*/
-.column > *{
+.column > * {
     margin-bottom: 20px;
 }
 
@@ -101,7 +101,6 @@ main .form > button {
     float: right;
 }
 
-
 @media (min-width: 900px) {
     main .form > input.input {
         width: calc(50% - 10px);
@@ -113,6 +112,29 @@ main .form > button {
 }
 /* MAIN CONTENT: end */
 
-
 /* FOOTER: start */
+footer.container {
+    padding-top: 0;
+}
+.socials {
+    padding: 15px 0;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+}
+
+.socials > .fa {
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+.socials > .fa:hover {
+    background-color: #fff;
+    color: var(--primary-color);
+}
 /* FOOTER: end */
