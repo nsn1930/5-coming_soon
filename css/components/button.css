@@ -7,6 +7,17 @@
     border: none;
     border-radius: 0.1em;
     cursor: pointer;
+    text-decoration: none;
+}
+
+.btn.btn-round {
+    border-radius: 1.3em;
+}
+
+.btn.btn-round.fa {
+    padding-right: 0;
+    padding-left: 0;
+    width: 2.6em;
 }
 
 .btn:hover {
