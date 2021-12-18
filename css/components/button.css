@@ -4,10 +4,13 @@
     line-height: 1em;
     background-color: var(--secondary-color);
     color: #fff;
+    text-align: center;
     border: none;
     border-radius: 0.1em;
     cursor: pointer;
-    text-decoration: none;
+    text-decoration: none;    
+    box-shadow: 0 2px 8px 1px #0003;
+    transition: all 0.4s;
 }
 
 .btn.btn-round {
@@ -15,9 +18,12 @@
 }
 
 .btn.btn-round.fa {
-    padding-right: 0;
-    padding-left: 0;
-    width: 2.6em;
+    padding: 0;
+    font-size: 36px;
+    margin-top: -0.05em;
+    line-height: 1.2em;
+    width: 1.3em;
+    height: 1.3em;
 }
 
 .btn:hover {
