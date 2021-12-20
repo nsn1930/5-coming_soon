@@ -55,7 +55,7 @@
 
 .hero .form {
     width: 90%;
-    margin: 0 5% 15px;
+    margin: 0 5% 40px;
 }
 
 .hero .form > .input {
@@ -203,7 +203,6 @@ footer .link {
         display: none;
     }
 }
-/* FOOTER: end */
 
 .back-to-top {
     /* position: fixed;
@@ -219,3 +218,4 @@ footer .link {
         display: none;
     }
 }
+/* FOOTER: end */
